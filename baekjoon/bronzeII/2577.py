@@ -2,7 +2,7 @@ from math import prod
 from collections import Counter
 
 
-abc = [int(input()) for i in range(3)]
+abc = [int(input()) for _ in range(3)]
 
 cnt = Counter(str(prod(abc)))
 for i in range(10):
