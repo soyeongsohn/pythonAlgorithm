@@ -1,2 +1,1 @@
-string = input().split()
-print(len(string))
+print(len(input().strip().split()))
