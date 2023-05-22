@@ -1,6 +1,7 @@
 import sys; input = sys.stdin.readline
 
 def solution(x, y, N):
+    global result
     color = matrix[x][y]
     for i in range(x, x + N):
         for j in range(y, y + N):

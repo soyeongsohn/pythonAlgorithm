@@ -7,7 +7,7 @@ input = sys.stdin.readline
 def dfs(idx):
     global visited
 
-    visited[idx] = True
+    visited[idx] = 1
     print(idx, end=" ")
     for next in range(1, N + 1):
         if not visited[next] and graph[idx][next]:
